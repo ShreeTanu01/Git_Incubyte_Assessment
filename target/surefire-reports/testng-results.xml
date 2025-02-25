@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T14:50:22 IST" name="Suite" finished-at="2025-02-25T14:53:18 IST" duration-ms="176188">
+    <groups>
+      <group name="MultipleUserCheck">
+        <method signature="SelectSignIn.test1(java.lang.String,java.lang.String)[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@4a003cbe]" name="test1" class="IncubyteWebAutomation.Tests.SelectSignIn"/>
+      </group> <!-- MultipleUserCheck -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.ErrorValidationForInvalidEmail()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" name="ErrorValidationForInvalidEmail" class="IncubyteWebAutomation.Tests.ErrorValidation"/>
+        <method signature="ErrorValidation.ErrorValidationForInvalidPassword()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" name="ErrorValidationForInvalidPassword" class="IncubyteWebAutomation.Tests.ErrorValidation"/>
+        <method signature="ErrorValidation.PasswordNotSame()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" name="PasswordNotSame" class="IncubyteWebAutomation.Tests.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-02-25T14:50:22 IST" name="Create Account Test" finished-at="2025-02-25T14:51:58 IST" duration-ms="95550">
+      <class name="IncubyteWebAutomation.Tests.SelectCreateAccount">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.SelectCreateAccount@7e990ed7]" started-at="2025-02-25T14:50:22 IST" name="launchApplication" finished-at="2025-02-25T14:51:55 IST" duration-ms="92443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test1()[pri:0, instance:IncubyteWebAutomation.Tests.SelectCreateAccount@7e990ed7]" started-at="2025-02-25T14:51:55 IST" name="test1" finished-at="2025-02-25T14:51:58 IST" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.SelectCreateAccount@7e990ed7]" started-at="2025-02-25T14:51:58 IST" name="teardown" finished-at="2025-02-25T14:51:58 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- IncubyteWebAutomation.Tests.SelectCreateAccount -->
+    </test> <!-- Create Account Test -->
+    <test started-at="2025-02-25T14:50:22 IST" name="Error Validation Test" finished-at="2025-02-25T14:53:14 IST" duration-ms="171611">
+      <class name="IncubyteWebAutomation.Tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:50:22 IST" name="launchApplication" finished-at="2025-02-25T14:51:47 IST" duration-ms="84341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorValidationForInvalidEmail()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:51:47 IST" name="ErrorValidationForInvalidEmail" finished-at="2025-02-25T14:51:55 IST" duration-ms="8130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidationForInvalidEmail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:51:55 IST" name="teardown" finished-at="2025-02-25T14:52:01 IST" duration-ms="5997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:52:01 IST" name="launchApplication" finished-at="2025-02-25T14:52:32 IST" duration-ms="31014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorValidationForInvalidPassword()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:52:32 IST" name="ErrorValidationForInvalidPassword" finished-at="2025-02-25T14:52:36 IST" duration-ms="4810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidationForInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:52:36 IST" name="teardown" finished-at="2025-02-25T14:52:42 IST" duration-ms="5766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:52:42 IST" name="launchApplication" finished-at="2025-02-25T14:53:11 IST" duration-ms="29058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PasswordNotSame()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:53:11 IST" name="PasswordNotSame" finished-at="2025-02-25T14:53:14 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordNotSame -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.ErrorValidation@79207381]" started-at="2025-02-25T14:53:14 IST" name="teardown" finished-at="2025-02-25T14:53:14 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- IncubyteWebAutomation.Tests.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-02-25T14:50:22 IST" name="Sign In Test" finished-at="2025-02-25T14:53:18 IST" duration-ms="176188">
+      <class name="IncubyteWebAutomation.Tests.SelectSignIn">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@4a003cbe]" started-at="2025-02-25T14:50:22 IST" name="launchApplication" finished-at="2025-02-25T14:51:54 IST" duration-ms="91761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@4a003cbe]" started-at="2025-02-25T14:51:54 IST" name="test1" data-provider="getData" finished-at="2025-02-25T14:52:14 IST" duration-ms="19749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kittu.kolhatkar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@4a003cbe]" started-at="2025-02-25T14:52:14 IST" name="teardown" finished-at="2025-02-25T14:52:14 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@4a003cbe]" started-at="2025-02-25T14:52:14 IST" name="launchApplication" finished-at="2025-02-25T14:53:07 IST" duration-ms="52734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@4a003cbe]" started-at="2025-02-25T14:53:07 IST" name="test1" data-provider="getData" finished-at="2025-02-25T14:53:12 IST" duration-ms="5393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc.xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:IncubyteWebAutomation.Tests.SelectSignIn@4a003cbe]" started-at="2025-02-25T14:53:12 IST" name="teardown" finished-at="2025-02-25T14:53:18 IST" duration-ms="6310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- IncubyteWebAutomation.Tests.SelectSignIn -->
+    </test> <!-- Sign In Test -->
+  </suite> <!-- Suite -->
+</testng-results>
