@@ -28,7 +28,7 @@ public class CreateAccountPage {
 	@FindBy(xpath = "//*[@id=\"password-confirmation\"]")
 	WebElement ConfirmPassword;
 	
-	@FindBy(xpath = "//*[@id=\"form-validate\"]/div/div[1]/button/span")
+	@FindBy(xpath = "//button[@title='Create an Account']//span[contains(text(),'Create an Account')]")
 	WebElement CreateAnAccountBtn;
 	
 	@FindBy(xpath = "//*[@id=\"maincontent\"]/div[1]/div[2]/div/div/div")

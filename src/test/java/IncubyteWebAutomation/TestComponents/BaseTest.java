@@ -78,7 +78,10 @@ public class BaseTest {
 	{
 		driver = initializeDriver();
 		landingPage= new LandingPage(driver);
-		landingPage.GoTo("https://magento.softwaretestingboard.com/");
+		landingPage.GoTo();
+		 if (landingPage == null) {
+		        throw new NullPointerException("Landing page not initialized! - BaseTest");
+		    }
 		return landingPage;
 		
 	}

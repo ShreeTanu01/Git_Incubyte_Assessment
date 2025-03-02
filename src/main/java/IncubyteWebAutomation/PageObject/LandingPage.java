@@ -25,16 +25,18 @@ public LandingPage(WebDriver driver)
 //WebElement CreateAccount = driver.findElement(By.xpath("//a[contains(text(), 'Create an Account')]"));
 //WebElement SignIn = driver.findElement(By.xpath("//a[contains(text(), \"Sign\")]"));
 
-@FindBy(xpath = "//a[contains(text(), 'Create an Account')]")
+//@FindBy(xpath = "//a[contains(text(), 'Create an Account')]")
+@FindBy(xpath="//div[@class='panel header']//a[normalize-space()='Create an Account']")
 WebElement createAccount;
 
-@FindBy(xpath = "//a[contains(text(), \"Sign\")]")
+//@FindBy(xpath = "//a[contains(text(), \"Sign\")]")
+@FindBy(xpath = "//div[@class='panel header']//a[contains(text(),'Sign In')]")
 WebElement SignIn;
 
 
 
 
-public void GoTo(String url ) {driver.get(url);};
+public void GoTo() {driver.get("https://magento.softwaretestingboard.com/");};
 public SignInPage ClickSignIn() {
 	SignIn.click();
 	SignInPage SignInPage = new SignInPage(driver);
