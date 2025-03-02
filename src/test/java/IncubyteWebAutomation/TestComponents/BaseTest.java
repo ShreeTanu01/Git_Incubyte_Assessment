@@ -1,3 +1,4 @@
+
 package IncubyteWebAutomation.TestComponents;
 
 import java.io.File;
@@ -66,6 +67,12 @@ public class BaseTest {
 		
 	}
 	
+	/**
+	 * Launch application.
+	 *
+	 * @return the landing page
+	 * @throws IOException Signals that an I/O exception has occurred.
+	 */
 	@BeforeMethod(alwaysRun=true)
 	public LandingPage launchApplication() throws IOException
 	{

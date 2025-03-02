@@ -31,7 +31,7 @@ public class CreateAccountPage {
 	@FindBy(xpath = "//*[@id=\"form-validate\"]/div/div[1]/button/span")
 	WebElement CreateAnAccountBtn;
 	
-	@FindBy(xpath = "//*[@id=\"password-confirmation-error\"]")
+	@FindBy(xpath = "//*[@id=\"maincontent\"]/div[1]/div[2]/div/div/div")
 	WebElement PasswordConfirmation;
 	
 	public void CreateAccount(String FName, String LName,String EmailAddress ,String Pwd ,String ConfirmPwd) {
@@ -40,10 +40,14 @@ public class CreateAccountPage {
 		Email.sendKeys(EmailAddress);
 		Password.sendKeys(Pwd);
 		ConfirmPassword.sendKeys(ConfirmPwd);
-		CreateAnAccountBtn.click();
+	//	CreateAnAccountBtn.click();
 		
 	}
 	
+	public void CreateAnAccountBtn()
+	{
+		CreateAnAccountBtn.click();
+	}
 	public String PasswordConfirmationErrorMsg()
 	{
 		
